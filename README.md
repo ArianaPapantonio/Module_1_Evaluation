@@ -1,74 +1,60 @@
-# bda-modulo-1-evaluacion-final-Ariana-Papantonio
-bda-modulo-1-evaluacion-final-Ariana-Papantonio created by GitHub Classroom
+# 🐾 Veterinary Online Store – Python OOP Project
 
-# Proyecto de Creación de clase Tienda Online de Veterinaria
+This project was developed as part of the final evaluation for **Module 1** of the Adalab Data Analytics Bootcamp. It simulates an **online store for veterinary products**, using **object-oriented programming (OOP)** concepts in Python.
 
-Este proyecto consiste en un sistema para gestionar una tienda online de productos de veterinaria. Permite realizar distintas gestiones como agregar clientes y productos, ver el inventario disponible, actualizar el stock, realizar compras y procesar pagos, entre otras. 
+---
 
+## 🎯 Project Overview
 
-# Funcionalidades
+The application allows users to manage a basic e-commerce system with the following features:
 
-- Agregar producto: 
+- Adding and removing products
+- Managing inventory and stock levels
+- Registering and listing clients
+- Simulating purchases and payments
+- Viewing purchase history
 
-Función: permite añadir productos al inventario. 
-Método: agregar_producto(self, nombre_producto, precio, cantidad)
+All functionalities are implemented using **classes, methods, and attributes** — with a focus on encapsulation and object design.
 
+---
 
-- Ver inventario: 
+## 🧩 Functionalities
 
-Función: permite ver el inventario disponible. 
-Método: ver_inventario(self)
+| Feature               | Description                                                                 |
+|-----------------------|-----------------------------------------------------------------------------|
+| `agregar_producto()`  | Add a new product with name, price, and quantity to the inventory           |
+| `ver_inventario()`    | Display all products currently in inventory                                 |
+| `buscar_producto()`   | Search for a product by name                                                 |
+| `actualizar_stock()`  | Update the stock quantity of a given product                                |
+| `eliminar_producto()` | Remove a product from the inventory                                         |
+| `calcular_valor_inventario()` | Calculate the total value of all products in stock             |
+| `realizar_compras()`  | Add products to a shopping cart and calculate the total                     |
+| `procesar_pago()`     | Process the purchase, calculate change, and confirm the transaction         |
+| `agregar_cliente()`   | Add a new client with name and email address                                |
+| `ver_clientes()`      | View a list of all registered clients                                       |
+| `registrar_compra()`  | Record a completed purchase for a specific client                           |
 
+---
 
-- Buscar productos:
+## 🛠 Technologies Used
 
-Función: busca productos en el inventario: 
-Método: buscar_producto(self,nombre)
+- Python 
+- Object-Oriented Design using Python classes
+- Command-line interface for user interaction
 
-
-- Actualizar stock:
-
-Función: permite actualizar el stock de un producto
-Método: actualizar_stock(self,nombre,cantidad)
-
-
-- Eliminar producto: 
-
-Función: elimina productos del inventario
-Método: eliminar_producto(self,nombre)
-
-
-- Calcular valor inventario: 
-
-Función: calcula el valor total del inventario. 
-Método: def calcular_valor_inventario(self)
-        
-
-- Realizar compra:
-
-Función: permite al cliente seleccionar productos del inventario, agregar al carrito y ver el total.
-Método: realizar_compras(self)
+---
 
 
-- Procesar pago:
+## 🎓 Project Context
 
-Función: procesa el pago de la compra, calcula el cambio y muestra un mensaje de confirmación.
-Método:def procesar_pago(self)
+This project was created as part of the **Adalab Data Analytics Bootcamp – Module 1: Programming with Python**.
 
-
-- Agregar cliente:
-
-Función: agrega un nuevo cliente al registro de clientes. 
-Método: agregar_cliente(self,nombre,email)
-
-
-- Ver lista de clientes:
-
-Función: muestra el listado completo de clientes registrados, con su nombre y correo.
-Método: ver_clientes()
+**Focus areas:**
+- Logic building & problem solving
+- Structured programming
+- Object-Oriented Programming (OOP)
+- Command-Line Interface (CLI) user interaction
 
 
-- Registrar compra:
 
-Función: registra una compra para un cliente existente y la añade a su historial.
-Método: registrar_compra(nombre_cliente, carrito)
+
